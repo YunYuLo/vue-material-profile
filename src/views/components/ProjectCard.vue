@@ -71,10 +71,6 @@ export default {
     return {
       items: this.projects
     };
-  },
-  created() {
-    console.log(this.items);
-    console.log(this.projects);
   }
 };
 </script>
